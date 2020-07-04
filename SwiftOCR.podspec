@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-   s.framework  = "GPUImage"
+  # s.framework  = "GPUImage"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -133,5 +133,5 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2']
   
-
+  s.dependency 'GPUImage'
 end
